@@ -9,7 +9,7 @@ interface CountryListProps {
 
 export const CountryList = ({ countries }: CountryListProps) => {
   return (
-    <ul className="list-group p-3 m-1">
+    <ul className="list-group p-2 m-4">
       {countries.map((country) => {
         return <CountryItem countries={country} />;
       })}

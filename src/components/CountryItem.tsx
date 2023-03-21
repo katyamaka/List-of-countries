@@ -18,6 +18,7 @@ export const CountryItem = ({
       <p className="m-1">{region}</p>
       <Badge color="bg-primary" value={area} text="area" />
       <Badge color="bg-secondary" value={population} text="area" />
+      <Badge color="bg-secondary" value={population} text="population" />
     </li>
   );
 };

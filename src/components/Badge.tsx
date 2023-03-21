@@ -10,7 +10,7 @@ interface BadgeProps {
 
 export const Badge = ({ color, value, text }: BadgeProps) => {
   return (
-    <p className={` p-2 m-3 badge  ${color}`}>
+    <p className={` p-3 m-2 badge  ${color}`}>
       {text}: {value}
     </p>
   );
